@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text('Login Successful')),
           );
-          // Navigation is handled by AuthWrapper in main.dart
+
         } else {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(content: Text(result['message'] ?? 'Login failed')),

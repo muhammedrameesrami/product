@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Stack(
                     children: [
-                      // Gradient Overlay (optional, for subtle effect)
+
                       Container(
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12),
@@ -127,12 +127,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Colors.deepPurpleAccent,
                                 ])),
                       ),
-                      // Content
+
                       Padding(
                         padding: const EdgeInsets.all(20.0),
                         child: Row(
                           children: [
-                            // Left Text Content
+
                             Expanded(
                               flex: 3,
                               child: Column(
@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     style: TextStyle(
                                         color: Colors.white, fontSize: 14),
                                   ),
-                                  // const SizedBox(height: 1),
+
                                   const Text(
                                     'Power Your Day\nwith Nuts & Dry Fruits',
                                     style: TextStyle(
@@ -224,7 +224,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: Stack(
                 children: [
-                  // Gradient Overlay (optional, for subtle effect)
+
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
@@ -237,12 +237,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   .withOpacity(0.8),
                             ])),
                   ),
-                  // Content
+
                   Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Row(
                       children: [
-                        // Left Text Content
+
                         Expanded(
                           flex: 3,
                           child: Column(

@@ -13,7 +13,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
-    const HomeScreen(), // We will implement this next
+    const HomeScreen(),
     const Center(child: Text("Categories")),
     const Center(child: Text("Cart")),
     const Center(child: Text("Profile")),
@@ -30,7 +30,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             _currentIndex = index;
           });
         },
-        selectedItemColor: ColorConstants.buttonColor, // Green
+        selectedItemColor: ColorConstants.buttonColor,
         unselectedItemColor: Colors.grey,
         type: BottomNavigationBarType.fixed,
         items: const [
