@@ -12,6 +12,5 @@ class SizeConfig {
   }
 }
 
-// Global alias for ease of use if preferred, or just access via SizeConfig
 double get w => SizeConfig.screenWidth;
 double get h => SizeConfig.screenHeight;
