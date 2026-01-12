@@ -1,0 +1,17 @@
+import 'package:flutter/widgets.dart';
+
+class SizeConfig {
+  static late MediaQueryData _mediaQueryData;
+  static late double screenWidth;
+  static late double screenHeight;
+
+  void init(BuildContext context) {
+    _mediaQueryData = MediaQuery.of(context);
+    screenWidth = _mediaQueryData.size.width;
+    screenHeight = _mediaQueryData.size.height;
+  }
+}
+
+// Global alias for ease of use if preferred, or just access via SizeConfig
+double get w => SizeConfig.screenWidth;
+double get h => SizeConfig.screenHeight;
